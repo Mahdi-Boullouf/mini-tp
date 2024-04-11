@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Monoton;
+    src: url("../../assets/fonts/Monoton-Regular.ttf");
+}
+@font-face {
+    font-family: Sofia;
+    src: url("../../assets/fonts/SFRegular.otf");
+    font-weight: 400;
+}
+/* @font-face {
+    font-family: Sofia;
+    src: url("../../assets/fonts/SFBold.otf");
+    font-weight: 700;
+} */
+body{
+    background-color: #111111;
+    height: 100vh;
+    display: flex;
+    font-family: Sofia;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+input{
+    margin-top: 6px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 6px;
+    
+}
+#signup{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+button{
+    padding: 14px;
+color: white;
+    outline: none;
+    background-color: #353535;
+    border: none;
+    border-radius: 16px;
+
+}
+.primary{
+    background-color: blueviolet;
+}
+.card{
+    border-radius: 12px;
+background-color: #1F1F1F;
+padding: 20px 14px;
+}
+
+.monoton{
+    font-family: Monoton;
+}
+.largeTitle{
+    font-size: 96px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    color: #949494;;
+}
