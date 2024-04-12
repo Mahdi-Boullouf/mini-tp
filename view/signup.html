@@ -2,10 +2,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/auth.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
     <title>Sign UP</title>
 </head>
-<script src="../controller/main.js"></script>
 
 <nav>
 
@@ -14,24 +15,28 @@
     <div class="body">
         <p class="largeTitle monoton">NOTIX</p>
         <div class="card" >
-           <form action="" method="post" id="signup">
+           <form  method="post" id="form">
+            <label for="username" style="margin-top: 6px;">Username</label>
+            <input type="text" name="" id="username" placeholder="Ex : Mahdi.BF" required>
             <label for="email" style="margin-top: 6px;">Email Address</label>
             <input type="email" name="" id="email" placeholder="example@gmail.com" required>
             <label for="password">Password</label>
             <input type="password" name="" id="password" placeholder="**********" required>
             <br>
-            <button class="btn" type="submit" >Sign In</button>
+            <button role="button" class="btn" type="submit" onclick="signup()">Sign Up</button>
         </form>
 
         </div>
     </div>
     <p>
- <span class="subtitle">  you dont have an account ?</span> <bold> Sign up</bold>
+ <span class="subtitle">Already have an account ?</span> <a href="login.html" style="color: white;"> Sign In</a>
         
     </p>
 
 <br><br><br><br>
   <span class="subtitle"> By Mahdi Boullouf</span>
+<br><br><br><br><br>
+<script src="../controller/authenticator.js"></script>
 
 </body>
 </html>

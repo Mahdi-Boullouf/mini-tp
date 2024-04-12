@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Welcome - Mahdi Boullouf</title>
+</head>
+    <nav >
+        <p class="monoton">NOTIX</p>
+<hr style="width: 100%;">
+<br>
+    <div style="display: flex;justify-content: space-between;">
+        <div style="display: flex;justify-content: center;">
+            <img src="https://picsum.photos/400/400" class="avatar"  alt="" srcset="">
+         <span class="">Mahdi Boullouf</span>   
+        </div>
+
+        <div style="display: flex; ">
+            <a href="home.html" style="margin-left: 36px;" >Notes</a>
+
+            <a href="."  style="color: white;">Tasks</a>
+
+            <!-- <a href="" >Contact Us</a> -->
+            <a onclick="logout()" style="cursor: hand;">Logout</a>
+
+        </div>
+
+
+
+
+</nav>
+</div>
+
+<body >
+
+
+ 
+
+  
+<br>
+<div style="width:calc( 100% - 72px);" id="tasks" >
+
+ 
+</div>
+<div style="display: flex;width: calc( 100% - 72px ); align-items: center;">
+    <input type="date" placeholder="Deadline" id="deadline">
+    <input type="text" id="taskTitle" class="home-input" style="flex: 1; margin-left: 6px;" placeholder="Go to the GYM ..">
+    <button type="button" id="noteTitleButton" style=" height: 51px; margin-left: 10px;  padding: 0px 20px;" onclick="addTask()"> <i class="fa fa-plus"></i></button>
+</div>
+<br><br><br><br>
+  <!-- <span class="subtitle"> By Mahdi Boullouf</span> -->
+<br><br><br><br><br>
+<script  src="../controller/tasks_controller.js"></script>
+<script >
+       function logout(){
+            sessionStorage.clear()
+            window.location.pathname="/view/login.html";
+        }
+    document.body.onload = showTasks();
+    // function showTextArea() {
+    //     var titleBtnInput = document.getElementById("noteTitleButton");
+    //     titleBtnInput.style.display = "none";
+    //     var titleInput = document.getElementById("noteTitle");
+    //     titleInput.style.marginRight = "36px";
+    //     document.getElementById("noteBody").style.display = 'flex';
+    // }
+
+</script>
+
+<script>
+   
+</script>
+</body>
+</html>

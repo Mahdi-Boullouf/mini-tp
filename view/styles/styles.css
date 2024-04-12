@@ -1,0 +1,57 @@
+
+@keyframes dd {
+    0%{
+        background-color: #353535;
+    }
+    100%{
+        background-color: #111111;
+    }
+}
+input{
+    margin-top: 6px;
+    padding: 16px;
+    outline: none;
+    margin-bottom: 6px;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    background-color: #353535;
+}
+button{
+    padding: 14px;
+color: white;
+    outline: none;
+    background-color: #353535;
+    border: none;
+    animation: forwards;
+    transition: background-color 0.8s ease;
+    border-radius: 16px;
+
+}
+
+button:hover{
+cursor: hand;
+background-color: #111111;
+
+
+}
+.primary{
+    background-color: blueviolet;
+}
+.card{
+    border-radius: 12px;
+background-color: #1F1F1F;
+padding: 20px 36px;
+}
+
+.monoton{
+    font-family: Monoton;
+}
+.largeTitle{
+    font-size: 96px;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    color: #949494;;
+}
